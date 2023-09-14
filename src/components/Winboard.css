@@ -1,0 +1,9 @@
+.win {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: "Fredoka", cursive;
+  font-weight: bold;
+}
