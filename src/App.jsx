@@ -78,12 +78,20 @@ function App() {
     };
     return (
         <div className="App">
-            <Win xWinnings={xCount} oWinnings={oCount} />
-            <Board board={board} onClick={handleClick} />
-            <button className="reset" onClick={reset}>
-                Reset
-            </button>
-            {HandleWin(board)}
+            <div className="equation-x">
+                <h1>Equation X</h1>
+            </div>
+            <div className="tic">
+                <Win xWinnings={xCount} oWinnings={oCount} />
+                <Board board={board} onClick={handleClick} />
+                <button className="reset" onClick={reset}>
+                    Reset
+                </button>
+                {HandleWin(board)}
+            </div>
+            <div className="equation-o">
+                <h1>Equation O</h1>
+            </div>
         </div>
     );
 }

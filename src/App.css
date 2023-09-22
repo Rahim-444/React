@@ -1,15 +1,21 @@
 * {
   box-sizing: border-box;
 }
+.App {
+  display: flex;
+  justify-content: space-between;
+}
 body {
-  margin: 0;
+  margin: 0 10rem;
   background-color: #05131a;
   font-family: "Fredoka", sans-serif;
+  height: 100vh;
+}
+.tic {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 .reset {
   background-color: #1b6083;
@@ -29,4 +35,10 @@ body {
 }
 .reset:hover {
   box-shadow: 0px 0px 15px #888888;
+}
+.equation-x {
+  color: white;
+}
+.equation-o {
+  color: white;
 }
