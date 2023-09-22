@@ -3,7 +3,6 @@ import "./App.css";
 import React, { useState } from "react";
 import { Board } from "./components/board";
 import { Win } from "./components/Winboard";
-import { nextMove } from "./solver";
 
 function App() {
     const [board, setBoard] = useState(Array(9).fill(null));

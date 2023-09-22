@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  background-color: #efefef;
+  background-color: #05131a;
   font-family: "Fredoka", sans-serif;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ body {
   height: 100vh;
 }
 .reset {
-  background-color: Blue;
+  background-color: #1b6083;
   color: white;
   border: none;
   border-radius: 10%;
